@@ -1,4 +1,16 @@
-本项目是《Hello 算法》一书学习过程中的一些练习。
+本项目的是为了学习、巩固数据结构相关的知识、为面试、能力提升打基础。不定期更新。
 
-clang 编译命令：
- - clang -Wall -fprofile-arcs -ftest-coverage  xxx.cpp  -o xxx
+
+## 《hello 算法》项目
+ 
+电子书地址：https://www.hello-algo.com/
+
+✅ 20240621: 数组、链表、列表
+
+✅ 20240623: 队列、栈
+
+✅ 20240621: map、set、multimap、multiset
+
+✅ 20240621: 树、二叉树
+
+
