@@ -1,3 +1,0 @@
-/Users/yujia/Desktop/Profession/Programe/CodeLab/helloalgorithm/LeetcodeTop100/1_Hash/build/CMakeFiles/twosum.dir
-/Users/yujia/Desktop/Profession/Programe/CodeLab/helloalgorithm/LeetcodeTop100/1_Hash/build/CMakeFiles/edit_cache.dir
-/Users/yujia/Desktop/Profession/Programe/CodeLab/helloalgorithm/LeetcodeTop100/1_Hash/build/CMakeFiles/rebuild_cache.dir
