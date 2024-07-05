@@ -1,7 +1,7 @@
 本项目的是为了学习、巩固数据结构相关的知识、为面试、能力提升打基础。不定期更新。
 
 
-## 《hello 算法》项目
+## 1、《hello 算法》项目
  
 电子书地址：https://www.hello-algo.com/
 
@@ -16,7 +16,7 @@
 
 
 
-## 《Leetcode Top 100》
+## 2、《Leetcode Top 100》
 
 题目地址： https://leetcode.cn/studyplan/top-100-liked/
 
