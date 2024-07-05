@@ -14,3 +14,10 @@
 ✅ 20240621: 树、二叉树
 
 
+
+
+## 《Leetcode Top 100》
+
+题目地址： https://leetcode.cn/studyplan/top-100-liked/
+
+✅ 哈希： Tow Sum（两数之和）、Group Anagrams（组字谜）、Longest Consecutive Sequence(最长连续子序列))

@@ -54,6 +54,9 @@
     "variant": "cpp",
     "vector": "cpp",
     "algorithm": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "__tree": "cpp",
+    "map": "cpp",
+    "unordered_set": "cpp"
   }
 }
