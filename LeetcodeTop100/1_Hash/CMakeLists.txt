@@ -10,6 +10,8 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 # 添加测试文件
 add_executable(twosum  twosum.cpp)
+add_executable(groupanagrams  groupanagrams.cpp)
 
 # 链接到googletest库
 target_link_libraries(twosum ${GTEST_LIBRARIES} pthread)
+target_link_libraries(groupanagrams  ${GTEST_LIBRARIES} pthread)
