@@ -18,8 +18,8 @@ Example 2:
 
 Input: strs = [""]
 Output: [[""]]
-Example 3:
 
+Example 3:
 Input: strs = ["a"]
 Output: [["a"]]
 */
@@ -31,6 +31,26 @@ Output: [["a"]]
 #include<gtest/gtest.h>
 
 using namespace std;
+
+//判断两个vector是否包含相同的值
+bool areEqualUnordered(std::vector<std::vector<std::string> > &vec1, std::vector<std::vector<std::string> > &vec2) {
+    if (vec1.size() != vec2.size()) {
+        return false;
+    }
+
+    for (auto& subvec : vec1) {
+        std::sort(subvec.begin(), subvec.end());
+    }
+
+    for (auto& subvec : vec2) {
+        std::sort(subvec.begin(), subvec.end());
+    }
+
+    std::sort(vec1.begin(), vec1.end());
+    std::sort(vec2.begin(), vec2.end());
+
+    return vec1 == vec2;
+}
 
 
 vector<vector<string> > groupAnagrams(vector<string>& strs){
@@ -66,22 +86,36 @@ TEST(TestgroupAnagrams, TestOrdernal){
 
     // 调用函数
     vector<vector<string>> result = groupAnagrams(strs);
-    // if(result==expected) cout<<"result == excpected";
-    // bool res = result==expected;
-    EXPECT_EQ(result, expected)<<"测试用例1 失败";  //判断有误，无法忽略顺序
-    // EXPECT_TRUE(res);
+    std::sort(result.begin(), result.end());
+    //std::sort(expected.begin(), expected.end());
+    //EXPECT_EQ(result, expected);  //判断有误，无法忽略顺序
+    EXPECT_TRUE(areEqualUnordered(result, expected));
     
 }
 
-// TEST(TestgroupAnagrams, Test2Argv){
-//       // 示例输入
-//     vector<string> strs = {""};
-//     vector<vector<string>> target = {[""]};
+TEST(TestgroupAnagrams, TestNullArgv){
+      // 示例输入
+    vector<string> strs ;
+    strs.push_back({""});
+    vector<vector<string>> target ;
+    target.push_back({""});
 
-//     // 调用函数
-//     vector<vector<string>> result = groupAnagrams(strs);
-//     EXPECT_EQ(result, target);
-// }
+    // 调用函数
+    vector<vector<string>> result = groupAnagrams(strs);
+    EXPECT_EQ(result, target);
+}
+
+TEST(TestgroupAnagrams, Test2Argv){
+      // 示例输入
+    vector<string> strs ;
+    strs.push_back({"a"});
+    vector<vector<string>> target ;
+    target.push_back({"a"});
+
+    // 调用函数
+    vector<vector<string>> result = groupAnagrams(strs);
+    EXPECT_EQ(result, target);
+}
 
 int main(int argc, char* argv[]){
 

@@ -14,4 +14,4 @@ add_executable(groupanagrams  groupanagrams.cpp)
 
 # 链接到googletest库
 target_link_libraries(twosum ${GTEST_LIBRARIES} pthread)
-target_link_libraries(groupanagrams  ${GTEST_LIBRARIES} pthread)
+target_link_libraries(groupanagrams  ${GTEST_LIBRARIES}  ${GTEST_MAIN_LIBRARIES}  pthread)
