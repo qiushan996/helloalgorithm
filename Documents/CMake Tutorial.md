@@ -29,7 +29,21 @@
 
 - target_include_directories(): 指定可执行目标应在哪里查找包含文件
 
-
+- 一些常见的CMAKE变量
+  ```
+  CMAKE_SOURCE_DIR: 根源文件目录，即包含顶层 CMakeLists.txt 文件的目录。
+  CMAKE_BINARY_DIR: 根构建目录，即运行 CMake 生成构建文件的目录。
+  PROJECT_SOURCE_DIR: 当前项目的源文件目录。对于主项目，它与 CMAKE_SOURCE_DIR 相同；对于子项目，它指向子项目的源文件目录。
+  PROJECT_BINARY_DIR: 当前项目的构建目录。对于主项目，它与 CMAKE_BINARY_DIR 相同；对于子项目，它指向子项目的构建目录。
+  CMAKE_CURRENT_SOURCE_DIR: 当前处理的 CMakeLists.txt 文件所在的源文件目录。
+  CMAKE_CURRENT_BINARY_DIR: 当前处理的 CMakeLists.txt 文件的构建目录。
+  CMAKE_INSTALL_PREFIX: 安装前缀，通常用于指定安装路径，默认为 /usr/local。
+  CMAKE_CXX_COMPILER: 指定的 C++ 编译器的路径。
+  CMAKE_C_COMPILER: 指定的 C 编译器的路径。
+  CMAKE_BUILD_TYPE: 指定构建类型，如 Debug、Release、MinSizeRel 或 RelWithDebInfo。
+  CMAKE_PROJECT_NAME: 顶层项目的名称。
+  PROJECT_NAME: 当前项目的名称。
+  ```
 **Step 2: Adding a Library**
   - Exercise 1 - Creating a Library
   - Exercise 2 - Adding an Option
