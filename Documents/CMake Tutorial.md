@@ -6,9 +6,29 @@
 #### 目录
 
 **Step 1: A Basic Starting Point**
-  - Exercise 1 - Building a Basic Project
-  - Exercise 2 - Specifying the C++ Standard
-  - Exercise 3 - Adding a Version Number and Configured Header File
+
+- cmake_minimum_required(): 指定一个最小的CMAKE版本，确保一下的CMAKE函数在兼容的版本下运行
+
+- project(): 指定项目名称、语言、版本号等信息
+
+- add_executable(): 使用指定的源文件生成可执行文件
+
+- 使用set():  指定构建项目使用的C++标准
+  ```
+  set(CMAKE_CXX_STANDARD 11)
+  set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+  ```
+
+- 使用set(): 设置项目版本号
+  ```
+  set(Tutorial_VERSION_MAJOR 1)
+  set(Tutorial_VERSION_MINOR 5) 
+  ```
+
+- configure_file():将一个给定的输入文件复制到一个输出文件中，并在输入文件内容中替换一些变量值。
+
+- target_include_directories(): 指定可执行目标应在哪里查找包含文件
+
 
 **Step 2: Adding a Library**
   - Exercise 1 - Creating a Library
@@ -40,3 +60,4 @@
 **Step 11: Adding Export Configuration**
 
 **Step 12: Packaging Debug and Release**
+

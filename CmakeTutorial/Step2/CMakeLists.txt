@@ -7,8 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 # 调用MathFunctions库函数
 include_directories("${PROJECT_SOURCE_DIR}/MathFunctions")
 add_subdirectory(MathFunctions)
-add_executable(tutorial tutorial.cpp)
 
+add_executable(tutorial tutorial.cpp)
 
 target_link_libraries(tutorial PUBLIC MathFunctions )
 target_include_directories(tutorial PUBLIC 
