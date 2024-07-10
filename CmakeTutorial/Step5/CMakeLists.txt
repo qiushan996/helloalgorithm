@@ -34,3 +34,32 @@ install(FILES TutorialConfig.h
         DESTINATION  include)     
 
 
+
+########################################################
+# CTest support
+# enabel CTest
+enable_testing()
+# add some test case
+add_test(NAME Uasge COMMAND tutorial )
+set_tests_properties(Uasge
+    PROPERTIES PASS_REGULAR_EXPRESSION "Uasge:.*number"
+    )
+add_test(NAME StandardUse COMMAND Tutorial 4)
+set_tests_properties(StandardUse
+  PROPERTIES PASS_REGULAR_EXPRESSION "4 is 2"
+  )  
+    
+function(do_test target arg result)
+  add_test(NAME Comp${arg} COMMAND ${target} ${arg})
+  set_tests_properties(Comp${arg}
+    PROPERTIES PASS_REGULAR_EXPRESSION ${result}
+    )
+endfunction()
+
+# do a bunch of result based tests
+do_test(Tutorial 4 "4 is 2")
+do_test(Tutorial 9 "9 is 3")
+do_test(Tutorial 5 "5 is 2.236")
+do_test(Tutorial 7 "7 is 2.645")
+do_test(Tutorial 81 "81 is 9")
+do_test(Tutorial 100 "100 is 10")
