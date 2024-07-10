@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(tutorial_step2)
+project(tutorial_step4)
 
 # 错误的写法
 # set(gcc_like_cxx "$<COMPILE_LANG_AND_ID:CXX, ARMClang, AppleClang, Clang, GNU, LCC> ")
