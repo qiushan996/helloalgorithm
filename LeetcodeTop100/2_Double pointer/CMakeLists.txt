@@ -9,6 +9,8 @@ find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(move_zeros 283_movezeros.cpp)
+add_executable(3sums 15_3sum.cpp)
 
 
 target_link_libraries(move_zeros ${GTEST_LIBRARIES} pthread)
+target_link_libraries(3sums ${GTEST_LIBRARIES} pthread)
