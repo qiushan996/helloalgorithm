@@ -19,4 +19,14 @@
 
 题目地址： https://leetcode.cn/studyplan/top-100-liked/
 
-✅ 哈希： Tow Sum（两数之和）、Group Anagrams（组字谜）、Longest Consecutive Sequence(最长连续子序列))
+✅ 哈希
+-  1、Tow Sum 两数之和
+-  49、Group Anagrams组字谜
+-  128、Longest Consecutive Sequence 最长连续子序列
+
+✅ 双指针
+- 11、 Container with most water盛水最多的容器
+- 15、3sum 三数之和
+- 283、 Move Zeros 移动全部零
+
+
