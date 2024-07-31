@@ -30,3 +30,11 @@ int main(int argc, char* argv[]){
 }
 
 ```
+
+
+修改 CMakeLists.txt  
+```shell
+add_executable(maxsubarray   53_MaxSubArray.cpp)
+
+target_link_libraries(maxsubarray  ${GTEST_LIBRARIES}  pthread)
+```
