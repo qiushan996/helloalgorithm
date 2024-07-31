@@ -29,4 +29,10 @@
 - 15、3sum 三数之和
 - 283、 Move Zeros 移动全部零
 
+✅ 普通数组
+- 53、 Merge Intervals 最大字数组
+- 56、 Merge Intervals 合并子区间
+- 189、Rotate Array 轮转数组
+- 238、Product of Array Except Self 除自身以外数组的乘积
+
 
