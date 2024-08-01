@@ -35,4 +35,11 @@
 - 189、Rotate Array 轮转数组
 - 238、Product of Array Except Self 除自身以外数组的乘积
 
+✅ 二分查找
+- 33、Search in Rotated Sorted Array 寻找旋转排序数组
+- 34、Find First and Last Position of Element in Sorted Array  在排序数组中查找第一个和最后一个  
+- 35、Search insert Position 查找插入位置
+- 74、Search a 2D Matrix  查找二维数组
+- 153、Find Minimum in Rotated Sorted Array  寻找循转数组中的最小值
+
 
