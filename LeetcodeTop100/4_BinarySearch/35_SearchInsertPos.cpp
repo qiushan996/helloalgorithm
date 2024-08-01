@@ -32,6 +32,8 @@ public:
     int searchInsert(vector<int>& nums, int target) {
       int i = 0;
       if(target<=nums[0]) return 0;
+
+      //Version 1: 这里没有体现出二分法的思想，需改进
       for(; i<nums.size()-1; i++){
         if(nums[i] == target) return i;
         else{

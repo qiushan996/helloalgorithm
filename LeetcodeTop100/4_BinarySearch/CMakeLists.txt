@@ -8,6 +8,8 @@ find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(Searchinsertpos   35_SearchInsertPos.cpp)
+add_executable(Searchi2DMatrix   74_Search_2D_Matrix.cpp)
 
 
 target_link_libraries(Searchinsertpos  ${GTEST_LIBRARIES}  pthread)
+target_link_libraries(Searchi2DMatrix  ${GTEST_LIBRARIES}  pthread)
