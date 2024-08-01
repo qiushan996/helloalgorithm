@@ -14,3 +14,9 @@ add_executable(LastPos           34_find_lastPos.cpp)
 target_link_libraries(Searchinsertpos  ${GTEST_LIBRARIES}  pthread)
 target_link_libraries(Searchi2DMatrix  ${GTEST_LIBRARIES}  pthread)
 target_link_libraries(LastPos          ${GTEST_LIBRARIES}  pthread)
+
+add_executable(33_RotatedSortArray 33_RotatedSortArray.cpp)
+target_link_libraries(33_RotatedSortArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(153_MimRotatArray 153_MimRotatArray.cpp)
+target_link_libraries(153_MimRotatArray ${GTEST_LIBRARIES} pthread)
