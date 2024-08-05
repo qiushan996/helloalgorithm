@@ -34,3 +34,12 @@
 - 153、Find Minimum in Rotated Sorted Array  寻找循转数组中的最小值
 
 
+✅ 滑动窗口
+- 3、Longest Substring Without Repeating Characters 无重复字符的最长字串
+- 438、Find all anagrams in a string 找到字符串中所有的字母异位词
+
+✅ 回溯
+- 46、Permutations 全排列
+- 78、Subsets 子集
+- 17、Letter Combinations of a Phone Number 电话号码的字母组合
+- 39、Combine sum 组合总和

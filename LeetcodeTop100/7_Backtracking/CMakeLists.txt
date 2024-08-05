@@ -15,3 +15,9 @@ target_link_libraries(46_permutations ${GTEST_LIBRARIES} pthread)
 
 add_executable(78_subsets 78_subsets.cpp)
 target_link_libraries(78_subsets ${GTEST_LIBRARIES} pthread)
+
+add_executable(17_phonenumstr 17_phonenumstr.cpp)
+target_link_libraries(17_phonenumstr ${GTEST_LIBRARIES} pthread)
+
+add_executable(39_combinesum 39_combinesum.cpp)
+target_link_libraries(39_combinesum ${GTEST_LIBRARIES} pthread)
