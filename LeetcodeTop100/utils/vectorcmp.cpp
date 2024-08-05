@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//比较两个vector元素是否相等
 bool areEqualUnordered(std::vector<std::vector<std::string> > &vec1, std::vector<std::vector<std::string> > &vec2) {
     if (vec1.size() != vec2.size()) {
         return false;

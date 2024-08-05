@@ -50,7 +50,7 @@ TEST(XXXTest, Case1){
   vector<int> input = {1,2,3};
   vector<vector<int>> target = {{1,2,3},{1,3,2},{2,1,3},{2,3,1},{3,1,2},{3,2,1}};
   Solution solut;
-  EXPECT_EQ( target, solut.permute(input) );
+  EXPECT_EQ( target, solut.permute(input) );   //此处比较函数为考虑子元素中的顺序问题
 }
 
 TEST(XXXTest, Case2){

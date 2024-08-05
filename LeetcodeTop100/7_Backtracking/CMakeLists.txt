@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(46_permutations 46_permutations.cpp)
 target_link_libraries(46_permutations ${GTEST_LIBRARIES} pthread)
+
+add_executable(78_subsets 78_subsets.cpp)
+target_link_libraries(78_subsets ${GTEST_LIBRARIES} pthread)
