@@ -30,13 +30,18 @@ public:
       return result;
     }
 private:
+//num: 正在排列的数组
+//start: 当前处理的位置
+//result: 存放结果的变量
   void backtrack(vector<int>& nums, int start, vector<vector<int>>& result){
+    //如果start和nums的长度相等，说明已经处理完成所有元素
     if(start == nums.size()){
       //终止条件
       result.push_back(nums);
       return ;
     }
 
+    //
     for(int i = start; i<nums.size(); i++){
       swap(nums[start], nums[i]);
       backtrack(nums, start + 1, result);

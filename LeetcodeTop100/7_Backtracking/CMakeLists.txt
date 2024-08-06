@@ -21,3 +21,6 @@ target_link_libraries(17_phonenumstr ${GTEST_LIBRARIES} pthread)
 
 add_executable(39_combinesum 39_combinesum.cpp)
 target_link_libraries(39_combinesum ${GTEST_LIBRARIES} pthread)
+
+add_executable(79_wordsearch 79_wordsearch.cpp)
+target_link_libraries(79_wordsearch ${GTEST_LIBRARIES} pthread)
