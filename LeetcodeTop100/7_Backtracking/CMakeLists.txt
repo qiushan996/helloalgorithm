@@ -24,3 +24,6 @@ target_link_libraries(39_combinesum ${GTEST_LIBRARIES} pthread)
 
 add_executable(79_wordsearch 79_wordsearch.cpp)
 target_link_libraries(79_wordsearch ${GTEST_LIBRARIES} pthread)
+
+add_executable(22_generateparentheses 22_generateparentheses.cpp)
+target_link_libraries(22_generateparentheses ${GTEST_LIBRARIES} pthread)
