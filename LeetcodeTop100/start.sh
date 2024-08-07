@@ -29,7 +29,8 @@ public:
 
 //测试用例
 TEST(XXXTest, Case1){
-    EXPECT_EQ( );
+    Solution solut;
+    EXPECT_EQ(target, result);
 }
 
 int main(int argc, char* argv[]){

@@ -43,3 +43,6 @@
 - 78、Subsets 子集
 - 17、Letter Combinations of a Phone Number 电话号码的字母组合
 - 39、Combine sum 组合总和
+- 22、Generate Parentheses 括号生成器
+- 79、Word Search 单词搜素
+- 131、Palindrome Partitioning  分隔回文串

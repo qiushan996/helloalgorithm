@@ -27,3 +27,6 @@ target_link_libraries(79_wordsearch ${GTEST_LIBRARIES} pthread)
 
 add_executable(22_generateparentheses 22_generateparentheses.cpp)
 target_link_libraries(22_generateparentheses ${GTEST_LIBRARIES} pthread)
+
+add_executable(131_palindromeoartition 131_palindromeoartition.cpp)
+target_link_libraries(131_palindromeoartition ${GTEST_LIBRARIES} pthread)
