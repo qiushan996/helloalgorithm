@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(121_besttimestock 121_besttimestock.cpp)
 target_link_libraries(121_besttimestock ${GTEST_LIBRARIES} pthread)
+
+add_executable(55_Jumpgame 55_Jumpgame.cpp)
+target_link_libraries(55_Jumpgame ${GTEST_LIBRARIES} pthread)
