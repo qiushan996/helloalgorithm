@@ -21,3 +21,7 @@ target_link_libraries(206_reverselinkedlist PUBLIC utils ${GTEST_LIBRARIES} pthr
 target_include_directories(206_reverselinkedlist PUBLIC 
                           "${PROJECT_BINARY_DIR}"
                           "${PROJECT_SOURCE_DIR}/utils")
+
+
+add_executable(234_palindrome_linkedlists 234_palindrome_linkedlists.cpp)
+target_link_libraries(234_palindrome_linkedlists ${GTEST_LIBRARIES} pthread)
