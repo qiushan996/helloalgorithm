@@ -25,3 +25,5 @@ target_include_directories(206_reverselinkedlist PUBLIC
 
 add_executable(234_palindrome_linkedlists 234_palindrome_linkedlists.cpp)
 target_link_libraries(234_palindrome_linkedlists ${GTEST_LIBRARIES} pthread)
+add_executable(141_Cycle_linkedlists 141_Cycle_linkedlists.cpp)
+target_link_libraries(141_Cycle_linkedlists ${GTEST_LIBRARIES} pthread)
