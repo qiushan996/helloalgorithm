@@ -9,6 +9,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
+#调用utils
+include_directories("${PROJECT_SOURCE_DIR}/utils")
+add_subdirectory(utils)
 
 add_executable(160_intersectlinkedlists 160_intersectlinkedlists.cpp)
 target_link_libraries(160_intersectlinkedlists ${GTEST_LIBRARIES} pthread)
+
+add_executable(206_reverselinkedlist 206_reverselinkedlist.cpp)
+target_link_libraries(206_reverselinkedlist PUBLIC utils ${GTEST_LIBRARIES} pthread)
+target_include_directories(206_reverselinkedlist PUBLIC 
+                          "${PROJECT_BINARY_DIR}"
+                          "${PROJECT_SOURCE_DIR}/utils")
