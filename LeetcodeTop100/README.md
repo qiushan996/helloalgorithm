@@ -46,3 +46,12 @@
 - 22、Generate Parentheses 括号生成器
 - 79、Word Search 单词搜素
 - 131、Palindrome Partitioning  分隔回文串
+
+
+✅ 链表
+- 2、Add two Numbers 两数之和
+- 21、merge two sorted lists 合并两个有序单链表
+- 141、Linked List Cycle 循环链表
+- 160、Intersection of two linked lists 相交链表
+- 206、reverse Linked List 反转链表
+- 234、Palindrome Linked list 回文链表
