@@ -27,3 +27,9 @@ add_executable(234_palindrome_linkedlists 234_palindrome_linkedlists.cpp)
 target_link_libraries(234_palindrome_linkedlists ${GTEST_LIBRARIES} pthread)
 add_executable(141_Cycle_linkedlists 141_Cycle_linkedlists.cpp)
 target_link_libraries(141_Cycle_linkedlists ${GTEST_LIBRARIES} pthread)
+
+add_executable(21_merge_two_sorted_linkedlists 21_merge_two_sorted_linkedlists.cpp)
+target_link_libraries(21_merge_two_sorted_linkedlists PUBLIC utils   ${GTEST_LIBRARIES} pthread)
+target_include_directories(21_merge_two_sorted_linkedlists PUBLIC 
+                          "${PROJECT_BINARY_DIR}"
+                          "${PROJECT_SOURCE_DIR}/utils")

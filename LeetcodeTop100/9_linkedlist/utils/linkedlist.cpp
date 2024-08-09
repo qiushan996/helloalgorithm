@@ -8,7 +8,7 @@ bool isEqualLinkedlists(ListNode *node1, ListNode *node2)
   while ( pa !=NULL && pb !=NULL)
   {
     if(pa->val !=pb->val) return false;
-    //cout<<"pa: "<<pa->val<<" pb: "<<pb->val<<endl;
+    cout<<"pa: "<<pa->val<<" pb: "<<pb->val<<endl;
     pa = pa->next;
     pb = pb->next;
   }
