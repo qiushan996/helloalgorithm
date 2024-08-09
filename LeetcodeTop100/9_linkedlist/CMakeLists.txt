@@ -33,3 +33,9 @@ target_link_libraries(21_merge_two_sorted_linkedlists PUBLIC utils   ${GTEST_LIB
 target_include_directories(21_merge_two_sorted_linkedlists PUBLIC 
                           "${PROJECT_BINARY_DIR}"
                           "${PROJECT_SOURCE_DIR}/utils")
+
+add_executable(2_addtownums 2_addtownums.cpp)
+target_link_libraries(2_addtownums PUBLIC utils  ${GTEST_LIBRARIES} pthread)
+target_include_directories(2_addtownums PUBLIC 
+                          "${PROJECT_BINARY_DIR}"
+                          "${PROJECT_SOURCE_DIR}/utils")

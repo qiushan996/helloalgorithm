@@ -50,6 +50,20 @@ TEST(XXXTest, Case1){
     target->next->next->next->next->next = new ListNode(4);
 
     EXPECT_TRUE(isEqualLinkedlists(target, solut.mergeTwoLists(list1, list2)));
+
+    delete target->next->next->next->next;
+    delete target->next->next->next;
+    delete target->next->next;
+    delete target->next;
+    delete target;
+
+    delete list2->next->next;
+    delete list2->next;
+    delete list2;
+
+    delete list1->next->next;
+    delete list1->next;
+    delete list1;
 }
 
 int main(int argc, char* argv[]){
