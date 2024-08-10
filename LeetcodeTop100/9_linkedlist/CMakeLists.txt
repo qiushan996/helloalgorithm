@@ -39,3 +39,9 @@ target_link_libraries(2_addtownums PUBLIC utils  ${GTEST_LIBRARIES} pthread)
 target_include_directories(2_addtownums PUBLIC 
                           "${PROJECT_BINARY_DIR}"
                           "${PROJECT_SOURCE_DIR}/utils")
+
+add_executable(19_removeNode 19_removeNode.cpp)
+target_link_libraries(19_removeNode PUBLIC utils ${GTEST_LIBRARIES} pthread)
+target_include_directories(19_removeNode PUBLIC 
+                          "${PROJECT_BINARY_DIR}"
+                          "${PROJECT_SOURCE_DIR}/utils")
