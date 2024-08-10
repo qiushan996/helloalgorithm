@@ -45,3 +45,8 @@ target_link_libraries(19_removeNode PUBLIC utils ${GTEST_LIBRARIES} pthread)
 target_include_directories(19_removeNode PUBLIC 
                           "${PROJECT_BINARY_DIR}"
                           "${PROJECT_SOURCE_DIR}/utils")
+add_executable(148_sortlist 148_sortlist.cpp)
+target_link_libraries(148_sortlist PUBLIC utils ${GTEST_LIBRARIES} pthread)
+target_include_directories(148_sortlist PUBLIC 
+                          "${PROJECT_BINARY_DIR}"
+                          "${PROJECT_SOURCE_DIR}/utils")

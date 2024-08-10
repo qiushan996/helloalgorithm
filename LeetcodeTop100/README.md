@@ -55,3 +55,5 @@
 - 160、Intersection of two linked lists 相交链表
 - 206、reverse Linked List 反转链表
 - 234、Palindrome Linked list 回文链表
+- 19、Remove Nth Node From End of List   移除倒数第N个节点
+- 148、Sort List 链表排序
