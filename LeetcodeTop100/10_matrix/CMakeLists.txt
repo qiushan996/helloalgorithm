@@ -18,3 +18,6 @@ target_link_libraries(54_sprial_matrix ${GTEST_LIBRARIES} pthread)
 
 add_executable(48_rotateImage 48_rotateImage.cpp)
 target_link_libraries(48_rotateImage ${GTEST_LIBRARIES} pthread)
+
+add_executable(240_search2Dmatrix 240_search2Dmatrix.cpp)
+target_link_libraries(240_search2Dmatrix ${GTEST_LIBRARIES} pthread)
