@@ -1,4 +1,4 @@
-/* 题目描述: 560_和为K的字数组
+/* 题目描述: 560_和为K的子数组
 
 Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
 给定一个整数数组 nums 和一个整数 k，返回和等于 k ​​的子数组的总数。

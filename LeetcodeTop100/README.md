@@ -63,3 +63,8 @@
 - 54、Spiral Matrix 螺旋矩阵
 - 73、Set Matrix Zeros 矩阵置零
 - 240、Search a 2D Matrix II 搜素二维矩阵
+
+✅ 子串
+- 76、Minimum window Substring 最小覆盖子串
+- 239、Sliding Window Maximum 滑动窗口最大值
+- 560、Sunarray Sum Equals k  和为k的字数组
