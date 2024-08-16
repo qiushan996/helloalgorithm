@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(560_sumequalK 560_sumequalK.cpp)
 target_link_libraries(560_sumequalK ${GTEST_LIBRARIES} pthread)
+
+add_executable(239_slidingwinMax 239_slidingwinMax.cpp)
+target_link_libraries(239_slidingwinMax ${GTEST_LIBRARIES} pthread)
