@@ -15,3 +15,6 @@ target_link_libraries(560_sumequalK ${GTEST_LIBRARIES} pthread)
 
 add_executable(239_slidingwinMax 239_slidingwinMax.cpp)
 target_link_libraries(239_slidingwinMax ${GTEST_LIBRARIES} pthread)
+
+add_executable(76_minwindow 76_minwindow.cpp)
+target_link_libraries(76_minwindow ${GTEST_LIBRARIES} pthread)
