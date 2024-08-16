@@ -15,3 +15,6 @@ target_link_libraries(73_set_matrix_zeroes ${GTEST_LIBRARIES} pthread)
 
 add_executable(54_sprial_matrix 54_sprial_matrix.cpp)
 target_link_libraries(54_sprial_matrix ${GTEST_LIBRARIES} pthread)
+
+add_executable(48_rotateImage 48_rotateImage.cpp)
+target_link_libraries(48_rotateImage ${GTEST_LIBRARIES} pthread)
