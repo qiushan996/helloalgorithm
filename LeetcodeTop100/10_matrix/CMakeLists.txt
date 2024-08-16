@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(73_set_matrix_zeroes 73_set_matrix_zeroes.cpp)
 target_link_libraries(73_set_matrix_zeroes ${GTEST_LIBRARIES} pthread)
+
+add_executable(54_sprial_matrix 54_sprial_matrix.cpp)
+target_link_libraries(54_sprial_matrix ${GTEST_LIBRARIES} pthread)
