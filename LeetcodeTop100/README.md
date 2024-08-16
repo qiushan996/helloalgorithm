@@ -68,3 +68,8 @@
 - 76、Minimum window Substring 最小覆盖子串
 - 239、Sliding Window Maximum 滑动窗口最大值
 - 560、Sunarray Sum Equals k  和为k的字数组
+
+✅ 栈
+- 20、valid parentheses 有效的括号
+- 394、Decode String 解密字符串
+- 739、daily temperatures 每日温度
