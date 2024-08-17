@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(136_SingleNumber 136_SingleNumber.cpp)
 target_link_libraries(136_SingleNumber ${GTEST_LIBRARIES} pthread)
+
+add_executable(169_majorityelement 169_majorityelement.cpp)
+target_link_libraries(169_majorityelement ${GTEST_LIBRARIES} pthread)
