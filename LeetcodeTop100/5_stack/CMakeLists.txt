@@ -18,3 +18,6 @@ target_link_libraries(394_decodeString ${GTEST_LIBRARIES} pthread)
 
 add_executable(739_dailyTemperatures 739_dailyTemperatures.cpp)
 target_link_libraries(739_dailyTemperatures ${GTEST_LIBRARIES} pthread)
+
+add_executable(155_MinStack 155_MinStack.cpp)
+target_link_libraries(155_MinStack ${GTEST_LIBRARIES} pthread)
