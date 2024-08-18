@@ -15,3 +15,6 @@ target_link_libraries(136_SingleNumber ${GTEST_LIBRARIES} pthread)
 
 add_executable(169_majorityelement 169_majorityelement.cpp)
 target_link_libraries(169_majorityelement ${GTEST_LIBRARIES} pthread)
+
+add_executable(75_sortColor 75_sortColor.cpp)
+target_link_libraries(75_sortColor ${GTEST_LIBRARIES} pthread)
