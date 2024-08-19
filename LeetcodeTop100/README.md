@@ -81,3 +81,11 @@
 - 169、Majority Element 多数元素
 - 31、next Permutation 下一个排列
 - 287、Find Ducplicate Number  寻找重复数字
+
+✅ 堆
+- 215、kth Largest Element in an Array 数组中的第k个最大元素
+- 347、Top K Frequent Elements 前K个高频元素
+
+✅ 动态规划
+- 70、Climbing Stairs 爬楼梯
+- 118、Pascal's triangle 杨辉三角
