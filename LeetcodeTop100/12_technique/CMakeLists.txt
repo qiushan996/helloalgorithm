@@ -21,3 +21,6 @@ target_link_libraries(75_sortColor ${GTEST_LIBRARIES} pthread)
 
 add_executable(31_nextPermutation 31_nextPermutation.cpp)
 target_link_libraries(31_nextPermutation ${GTEST_LIBRARIES} pthread)
+
+add_executable(287_findDuplicatenum 287_findDuplicatenum.cpp)
+target_link_libraries(287_findDuplicatenum ${GTEST_LIBRARIES} pthread)

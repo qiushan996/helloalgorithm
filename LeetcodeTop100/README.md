@@ -79,3 +79,5 @@
 - 75、sort color 颜色排序
 - 136、Single Number 只出现一次的数字
 - 169、Majority Element 多数元素
+- 31、next Permutation 下一个排列
+- 287、Find Ducplicate Number  寻找重复数字
