@@ -27,3 +27,6 @@ target_link_libraries(array_59_SpiralMatrixII ${GTEST_LIBRARIES} pthread)
 
 add_executable(289_GameofLine 289_GameofLine.cpp)
 target_link_libraries(289_GameofLine ${GTEST_LIBRARIES} pthread)
+
+add_executable(912_SortAnArray 912_SortAnArray.cpp)
+target_link_libraries(912_SortAnArray ${GTEST_LIBRARIES} pthread)
