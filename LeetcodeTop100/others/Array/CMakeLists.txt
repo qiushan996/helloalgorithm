@@ -30,3 +30,6 @@ target_link_libraries(289_GameofLine ${GTEST_LIBRARIES} pthread)
 
 add_executable(912_SortAnArray 912_SortAnArray.cpp)
 target_link_libraries(912_SortAnArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(506_RelativeRanks 506_RelativeRanks.cpp)
+target_link_libraries(506_RelativeRanks ${GTEST_LIBRARIES} pthread)
