@@ -24,3 +24,6 @@ target_link_libraries(array_498_DiagonalTraveser ${GTEST_LIBRARIES} pthread)
 
 add_executable(array_59_SpiralMatrixII array_59_SpiralMatrixII.cpp)
 target_link_libraries(array_59_SpiralMatrixII ${GTEST_LIBRARIES} pthread)
+
+add_executable(289_GameofLine 289_GameofLine.cpp)
+target_link_libraries(289_GameofLine ${GTEST_LIBRARIES} pthread)
