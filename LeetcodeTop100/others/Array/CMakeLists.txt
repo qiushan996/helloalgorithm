@@ -25,11 +25,14 @@ target_link_libraries(array_498_DiagonalTraveser ${GTEST_LIBRARIES} pthread)
 add_executable(array_59_SpiralMatrixII array_59_SpiralMatrixII.cpp)
 target_link_libraries(array_59_SpiralMatrixII ${GTEST_LIBRARIES} pthread)
 
-add_executable(289_GameofLine 289_GameofLine.cpp)
-target_link_libraries(289_GameofLine ${GTEST_LIBRARIES} pthread)
+add_executable(289_GameofLife 289_GameofLife.cpp)
+target_link_libraries(289_GameofLife ${GTEST_LIBRARIES} pthread)
 
 add_executable(912_SortAnArray 912_SortAnArray.cpp)
 target_link_libraries(912_SortAnArray ${GTEST_LIBRARIES} pthread)
 
 add_executable(506_RelativeRanks 506_RelativeRanks.cpp)
 target_link_libraries(506_RelativeRanks ${GTEST_LIBRARIES} pthread)
+
+add_executable(80_removeDuplicates 80_removeDuplicates.cpp)
+target_link_libraries(80_removeDuplicates ${GTEST_LIBRARIES} pthread)
