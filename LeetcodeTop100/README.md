@@ -100,3 +100,6 @@
 - 485、Max Consecutive One 最大连续的1
 - 498、Diagonal Traverse 对角线遍历
 - 724、Find Oivot Index 寻找数组的中心下标
+- 289、Game of life 生命游戏
+- 506、Relative Ranks 相对排名
+- 912、Sort An Array 数组排序
