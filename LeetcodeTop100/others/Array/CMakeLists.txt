@@ -42,3 +42,9 @@ target_link_libraries(217_ContainsDuplicate ${GTEST_LIBRARIES} pthread)
 
 add_executable(179_LargestNumber 179_LargestNumber.cpp)
 target_link_libraries(179_LargestNumber ${GTEST_LIBRARIES} pthread)
+
+add_executable(384_ShuffleAnArray 384_ShuffleAnArray.cpp)
+target_link_libraries(384_ShuffleAnArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(561_ArrayPartition 561_ArrayPartition.cpp)
+target_link_libraries(561_ArrayPartition ${GTEST_LIBRARIES} pthread)

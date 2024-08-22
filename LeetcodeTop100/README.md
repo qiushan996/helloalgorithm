@@ -106,3 +106,5 @@
 - 80、remove duplicate 删除数组中的重复元素
 - 217、Contains Duplicate 包含重复数
 - 179、Largest Number 最大数
+- 384、Shuffle An Array 数组打乱
+- 561、Array Partition 数组拆分
