@@ -104,3 +104,5 @@
 - 506、Relative Ranks 相对排名
 - 912、Sort An Array 数组排序
 - 80、remove duplicate 删除数组中的重复元素
+- 217、Contains Duplicate 包含重复数
+- 179、Largest Number 最大数

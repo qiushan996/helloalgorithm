@@ -36,3 +36,9 @@ target_link_libraries(506_RelativeRanks ${GTEST_LIBRARIES} pthread)
 
 add_executable(80_removeDuplicates 80_removeDuplicates.cpp)
 target_link_libraries(80_removeDuplicates ${GTEST_LIBRARIES} pthread)
+
+add_executable(217_ContainsDuplicate 217_ContainsDuplicate.cpp)
+target_link_libraries(217_ContainsDuplicate ${GTEST_LIBRARIES} pthread)
+
+add_executable(179_LargestNumber 179_LargestNumber.cpp)
+target_link_libraries(179_LargestNumber ${GTEST_LIBRARIES} pthread)
