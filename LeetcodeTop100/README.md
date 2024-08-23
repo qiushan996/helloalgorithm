@@ -108,3 +108,7 @@
 - 179、Largest Number 最大数
 - 384、Shuffle An Array 数组打乱
 - 561、Array Partition 数组拆分
+- 162、Find Peek Element 寻找峰值
+- 167、Two Sum II- Ordered Array 两数之和-排序数组
+- 374、Guess Number 猜数字大小
+- 704、Binary Search 二分查找
