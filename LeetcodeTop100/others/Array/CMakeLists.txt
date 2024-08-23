@@ -48,3 +48,9 @@ target_link_libraries(384_ShuffleAnArray ${GTEST_LIBRARIES} pthread)
 
 add_executable(561_ArrayPartition 561_ArrayPartition.cpp)
 target_link_libraries(561_ArrayPartition ${GTEST_LIBRARIES} pthread)
+
+add_executable(704_BinarySearch 704_BinarySearch.cpp)
+target_link_libraries(704_BinarySearch ${GTEST_LIBRARIES} pthread)
+
+add_executable(374_GuessNumber 374_GuessNumber.cpp)
+target_link_libraries(374_GuessNumber ${GTEST_LIBRARIES} pthread)
