@@ -21,3 +21,9 @@ target_link_libraries(43_MultiplyStrings ${GTEST_LIBRARIES} pthread)
 
 add_executable(415_AddStrings 415_AddStrings.cpp)
 target_link_libraries(415_AddStrings ${GTEST_LIBRARIES} pthread)
+
+add_executable(151_ReverseWords 151_ReverseWords.cpp)
+target_link_libraries(151_ReverseWords ${GTEST_LIBRARIES} pthread)
+
+add_executable(557_ReverseWordsIII 557_ReverseWordsIII.cpp)
+target_link_libraries(557_ReverseWordsIII ${GTEST_LIBRARIES} pthread)
