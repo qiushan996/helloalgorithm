@@ -18,3 +18,6 @@ target_link_libraries(14_LongestCommonPrefix ${GTEST_LIBRARIES} pthread)
 
 add_executable(43_MultiplyStrings 43_MultiplyStrings.cpp)
 target_link_libraries(43_MultiplyStrings ${GTEST_LIBRARIES} pthread)
+
+add_executable(415_AddStrings 415_AddStrings.cpp)
+target_link_libraries(415_AddStrings ${GTEST_LIBRARIES} pthread)
