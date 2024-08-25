@@ -12,3 +12,9 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(344_ReverseString 344_ReverseString.cpp)
 target_link_libraries(344_ReverseString ${GTEST_LIBRARIES} pthread)
+
+add_executable(14_LongestCommonPrefix 14_LongestCommonPrefix.cpp)
+target_link_libraries(14_LongestCommonPrefix ${GTEST_LIBRARIES} pthread)
+
+add_executable(43_MultiplyStrings 43_MultiplyStrings.cpp)
+target_link_libraries(43_MultiplyStrings ${GTEST_LIBRARIES} pthread)
