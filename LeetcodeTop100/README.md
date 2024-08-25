@@ -112,3 +112,11 @@
 - 167、Two Sum II- Ordered Array 两数之和-排序数组
 - 374、Guess Number 猜数字大小
 - 704、Binary Search 二分查找
+
+
+**字符串**
+
+14、Longest Common Prefix 最长公共前缀
+43、Multiply String 字符串相乘
+344、Reverse String 字符串反转
+415、Add String 字符串相加
