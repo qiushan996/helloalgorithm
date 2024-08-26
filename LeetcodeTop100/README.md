@@ -112,7 +112,9 @@
 - 167、Two Sum II- Ordered Array 两数之和-排序数组
 - 374、Guess Number 猜数字大小
 - 704、Binary Search 二分查找
-
+- 852、Peak Index in  a Mountain Array 山脉数组的峰值索引
+- 81、Search Rotated In a sorted Array 搜索旋转排序数组II
+- 154、Find Minimum in Rotated Sorted Array II寻找旋转排序数组中的最小值
 
 **字符串题目补充：**
 
