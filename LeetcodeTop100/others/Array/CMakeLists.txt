@@ -66,3 +66,6 @@ target_link_libraries(154_FindMinSortedArrayII ${GTEST_LIBRARIES} pthread)
 
 add_executable(81_SearchRotatedArray 81_SearchRotatedArray.cpp)
 target_link_libraries(81_SearchRotatedArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(852_PeakIndexMountainArray 852_PeakIndexMountainArray.cpp)
+target_link_libraries(852_PeakIndexMountainArray ${GTEST_LIBRARIES} pthread)
