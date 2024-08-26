@@ -23,19 +23,42 @@ using namespace std;
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-        int left =0, right = nums.size() -1;
-        while (left<=right)
-        {
-          //计算中间值
-          int mid = (left + right )/2;   // mid = left + ((right -left )/2)
-          if(target == nums[mid]) return mid;
-          else if(target >nums[mid]) {
-            left = mid +1;
-          }else{
-            right = mid-1;
-          }
-        }
-      return -1;
+      //方法1: 在循环中直接返回
+      //   int left =0, right = nums.size() -1;
+      //   while (left<=right)
+      //   {
+      //     //计算中间值
+      //     int mid = (left + right )/2;   // mid = left + ((right -left )/2)
+      //     if(target == nums[mid]) return mid;
+      //     else if(target >nums[mid]) {
+      //       left = mid +1;
+      //     }else{
+      //       right = mid-1;
+      //     }
+      //   }
+      // return -1;
+
+      //方法2: 跳出循环后需进一步判断
+      // int left =0, right = nums.size() -1;
+      // while (left < right)
+      // {
+      //   int mid = left + (right - left + 1)/2;
+      //   if(nums[mid] >target) right = mid -1;
+      //   else  left = mid;
+      // }
+      // std::cout<<"left: "<<left<<" right:"<<right<<std::endl;
+      // return nums[left]==target ? left: -1;
+
+      //方法3:
+      int left = 0, right = nums.size()-1;
+      while (left<right)
+      {
+        int mid = left + (right -left)/2;
+        if(nums[mid]<target) left = mid + 1;
+        else right = mid;
+      }
+      std::cout<<"left: "<<left<<" right:"<<right<<std::endl;
+      return nums[right]==target ? right: -1;
     }
 };
 
