@@ -60,3 +60,6 @@ target_link_libraries(167_TwoSumII ${GTEST_LIBRARIES} pthread)
 
 add_executable(162_FindPeekElement 162_FindPeekElement.cpp)
 target_link_libraries(162_FindPeekElement ${GTEST_LIBRARIES} pthread)
+
+add_executable(154_FindMinSortedArrayII 154_FindMinSortedArrayII.cpp)
+target_link_libraries(154_FindMinSortedArrayII ${GTEST_LIBRARIES} pthread)
