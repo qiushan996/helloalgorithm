@@ -69,3 +69,9 @@ target_link_libraries(81_SearchRotatedArray ${GTEST_LIBRARIES} pthread)
 
 add_executable(852_PeakIndexMountainArray 852_PeakIndexMountainArray.cpp)
 target_link_libraries(852_PeakIndexMountainArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(04_medianOfTowArrays 04_medianOfTowArrays.cpp)
+target_link_libraries(04_medianOfTowArrays ${GTEST_LIBRARIES} pthread)
+
+add_executable(69_sqrt 69_sqrt.cpp)
+target_link_libraries(69_sqrt ${GTEST_LIBRARIES} pthread)
