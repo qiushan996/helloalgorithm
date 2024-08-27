@@ -81,3 +81,6 @@ target_link_libraries(50_Pow ${GTEST_LIBRARIES} pthread)
 
 add_executable(400_NthDigit 400_NthDigit.cpp)
 target_link_libraries(400_NthDigit ${GTEST_LIBRARIES} pthread)
+
+add_executable(26_removeDuplicatesArray 26_removeDuplicatesArray.cpp)
+target_link_libraries(26_removeDuplicatesArray ${GTEST_LIBRARIES} pthread)
