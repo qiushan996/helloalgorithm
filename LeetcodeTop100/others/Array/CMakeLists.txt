@@ -75,3 +75,9 @@ target_link_libraries(04_medianOfTowArrays ${GTEST_LIBRARIES} pthread)
 
 add_executable(69_sqrt 69_sqrt.cpp)
 target_link_libraries(69_sqrt ${GTEST_LIBRARIES} pthread)
+
+add_executable(50_Pow 50_Pow.cpp)
+target_link_libraries(50_Pow ${GTEST_LIBRARIES} pthread)
+
+add_executable(400_NthDigit 400_NthDigit.cpp)
+target_link_libraries(400_NthDigit ${GTEST_LIBRARIES} pthread)
