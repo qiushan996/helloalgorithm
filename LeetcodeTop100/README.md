@@ -115,6 +115,10 @@
 - 852、Peak Index in  a Mountain Array 山脉数组的峰值索引
 - 81、Search Rotated In a sorted Array 搜索旋转排序数组II
 - 154、Find Minimum in Rotated Sorted Array II寻找旋转排序数组中的最小值
+- 50、Pow(x,n) 实现一个Pow函数
+- 400、Nth Digit 第Nth 数字
+- 4、Median of Two Sorted Arrays 两个排序数组的中位数
+- 69、Sqrt  x的平方根
 
 **字符串题目补充：**
 
