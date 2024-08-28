@@ -87,3 +87,6 @@ target_link_libraries(26_removeDuplicatesArray ${GTEST_LIBRARIES} pthread)
 
 add_executable(349_IntersectionOfTwoArray 349_IntersectionOfTwoArray.cpp)
 target_link_libraries(349_IntersectionOfTwoArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(1343_NumberOfSubarray 1343_NumberOfSubarray.cpp)
+target_link_libraries(1343_NumberOfSubarray ${GTEST_LIBRARIES} pthread)
