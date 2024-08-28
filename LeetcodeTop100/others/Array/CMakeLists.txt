@@ -96,3 +96,6 @@ target_link_libraries(209_MinimSize ${GTEST_LIBRARIES} pthread)
 
 add_executable(713_SubarrayLessK 713_SubarrayLessK.cpp)
 target_link_libraries(713_SubarrayLessK ${GTEST_LIBRARIES} pthread)
+
+add_executable(643_MaximumAverage 643_MaximumAverage.cpp)
+target_link_libraries(643_MaximumAverage ${GTEST_LIBRARIES} pthread)
