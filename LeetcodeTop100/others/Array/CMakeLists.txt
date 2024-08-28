@@ -90,3 +90,6 @@ target_link_libraries(349_IntersectionOfTwoArray ${GTEST_LIBRARIES} pthread)
 
 add_executable(1343_NumberOfSubarray 1343_NumberOfSubarray.cpp)
 target_link_libraries(1343_NumberOfSubarray ${GTEST_LIBRARIES} pthread)
+
+add_executable(209_MinimSize 209_MinimSize.cpp)
+target_link_libraries(209_MinimSize ${GTEST_LIBRARIES} pthread)
