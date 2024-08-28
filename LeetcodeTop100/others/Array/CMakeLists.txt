@@ -93,3 +93,6 @@ target_link_libraries(1343_NumberOfSubarray ${GTEST_LIBRARIES} pthread)
 
 add_executable(209_MinimSize 209_MinimSize.cpp)
 target_link_libraries(209_MinimSize ${GTEST_LIBRARIES} pthread)
+
+add_executable(713_SubarrayLessK 713_SubarrayLessK.cpp)
+target_link_libraries(713_SubarrayLessK ${GTEST_LIBRARIES} pthread)
