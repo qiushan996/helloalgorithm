@@ -119,6 +119,10 @@
 - 400、Nth Digit 第Nth 数字
 - 4、Median of Two Sorted Arrays 两个排序数组的中位数
 - 69、Sqrt  x的平方根
+- 643、Maximum Average Subarray I 子数组最大平均数I
+- 713、Subarray Product Less Than K 乘积小于K的子数组
+- 209、Mininum Size Subarray Sum 长度最小的子数组
+- 1343、Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold  大小为K且平均值大于等于阈值的子数组数
 
 **字符串题目补充：**
 
