@@ -18,3 +18,6 @@ target_link_libraries(1450_NumberOfStudents ${GTEST_LIBRARIES} pthread)
 
 add_executable(23_MergekSortedLists 23_MergekSortedLists.cpp)
 target_link_libraries(23_MergekSortedLists ${GTEST_LIBRARIES} pthread)
+
+add_executable(504_Base7 504_Base7.cpp)
+target_link_libraries(504_Base7 ${GTEST_LIBRARIES} pthread)
