@@ -21,3 +21,6 @@ target_link_libraries(23_MergekSortedLists ${GTEST_LIBRARIES} pthread)
 
 add_executable(504_Base7 504_Base7.cpp)
 target_link_libraries(504_Base7 ${GTEST_LIBRARIES} pthread)
+
+add_executable(190_ReverseBits 190_ReverseBits.cpp)
+target_link_libraries(190_ReverseBits ${GTEST_LIBRARIES} pthread)
