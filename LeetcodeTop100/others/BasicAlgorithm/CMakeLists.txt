@@ -39,3 +39,9 @@ target_link_libraries(435_NonoverlappingIntervals ${GTEST_LIBRARIES} pthread)
 
 add_executable(860_LemondeChange 860_LemondeChange.cpp)
 target_link_libraries(860_LemondeChange ${GTEST_LIBRARIES} pthread)
+
+add_executable(561_ArrayPartion 561_ArrayPartion.cpp)
+target_link_libraries(561_ArrayPartion ${GTEST_LIBRARIES} pthread)
+
+add_executable(1400_ConstructKPalindromeStr 1400_ConstructKPalindromeStr.cpp)
+target_link_libraries(1400_ConstructKPalindromeStr ${GTEST_LIBRARIES} pthread)
