@@ -132,3 +132,13 @@
 - 415、Add String 字符串相加
 - 151、Reverse words 反转字符串中的单词
 - 557、Reverse words III  反转字符串中的单词
+
+**基础算法题目：**
+
+- 23、Merge Sorted Lists 合并k个有序列表
+- 190、ReverseBits  反转比特位
+- 338、Counting Bits 比特位计数
+- 371、Sum of two intergrate 两个整数之和
+- 504、Base 7  7进制数
+- 1450、Number of Students doing homework 同时做家庭作业的学生数量
+- 1925、count suqare 统计平方和三元组的数目
