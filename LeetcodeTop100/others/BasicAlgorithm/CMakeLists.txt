@@ -36,3 +36,6 @@ target_link_libraries(455_AssignCookie ${GTEST_LIBRARIES} pthread)
 
 add_executable(435_NonoverlappingIntervals 435_NonoverlappingIntervals.cpp)
 target_link_libraries(435_NonoverlappingIntervals ${GTEST_LIBRARIES} pthread)
+
+add_executable(860_LemondeChange 860_LemondeChange.cpp)
+target_link_libraries(860_LemondeChange ${GTEST_LIBRARIES} pthread)
