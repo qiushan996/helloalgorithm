@@ -30,3 +30,6 @@ target_link_libraries(371_SumofTwoInter ${GTEST_LIBRARIES} pthread)
 
 add_executable(338_CountingBits 338_CountingBits.cpp)
 target_link_libraries(338_CountingBits ${GTEST_LIBRARIES} pthread)
+
+add_executable(455_AssignCookie 455_AssignCookie.cpp)
+target_link_libraries(455_AssignCookie ${GTEST_LIBRARIES} pthread)
