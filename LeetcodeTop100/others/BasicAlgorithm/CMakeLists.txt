@@ -33,3 +33,6 @@ target_link_libraries(338_CountingBits ${GTEST_LIBRARIES} pthread)
 
 add_executable(455_AssignCookie 455_AssignCookie.cpp)
 target_link_libraries(455_AssignCookie ${GTEST_LIBRARIES} pthread)
+
+add_executable(435_NonoverlappingIntervals 435_NonoverlappingIntervals.cpp)
+target_link_libraries(435_NonoverlappingIntervals ${GTEST_LIBRARIES} pthread)

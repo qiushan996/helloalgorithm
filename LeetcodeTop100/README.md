@@ -142,3 +142,5 @@
 - 504、Base 7  7进制数
 - 1450、Number of Students doing homework 同时做家庭作业的学生数量
 - 1925、count suqare 统计平方和三元组的数目
+- 455、assign cookies 分配饼干
+- 435、Non-overlapping Intervals 无重叠区间

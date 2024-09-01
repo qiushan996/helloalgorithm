@@ -36,8 +36,7 @@ public:
       int child = 0, cookies = 0;
       while (child <g.size() && cookies<s.size())
       {
-        if(g[child]<=s[cookies]) ++child;
-        ++cookies;
+        if(g[child]<=s[cookies++]) child++;
       }
       return child;
     }
