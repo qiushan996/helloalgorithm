@@ -144,3 +144,6 @@
 - 1925、count suqare 统计平方和三元组的数目
 - 455、assign cookies 分配饼干
 - 435、Non-overlapping Intervals 无重叠区间
+- 47、Permutatuions II 全排列II
+- 51、N Queens  N皇后
+- 78、Subsets 子集
