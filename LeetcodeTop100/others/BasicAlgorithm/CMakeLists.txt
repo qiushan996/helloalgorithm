@@ -48,3 +48,6 @@ target_link_libraries(1400_ConstructKPalindromeStr ${GTEST_LIBRARIES} pthread)
 
 add_executable(78_Subsets 78_Subsets.cpp)
 target_link_libraries(78_Subsets ${GTEST_LIBRARIES} pthread)
+
+add_executable(51_NQueens 51_NQueens.cpp)
+target_link_libraries(51_NQueens ${GTEST_LIBRARIES} pthread)
