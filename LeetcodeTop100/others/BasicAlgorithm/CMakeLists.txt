@@ -51,3 +51,6 @@ target_link_libraries(78_Subsets ${GTEST_LIBRARIES} pthread)
 
 add_executable(51_NQueens 51_NQueens.cpp)
 target_link_libraries(51_NQueens ${GTEST_LIBRARIES} pthread)
+
+add_executable(47_PermutationsII 47_PermutationsII.cpp)
+target_link_libraries(47_PermutationsII ${GTEST_LIBRARIES} pthread)
