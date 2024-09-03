@@ -15,3 +15,6 @@ target_link_libraries(705_DesignHashSet ${GTEST_LIBRARIES} pthread)
 
 add_executable(706_DesignHashMap 706_DesignHashMap.cpp)
 target_link_libraries(706_DesignHashMap ${GTEST_LIBRARIES} pthread)
+
+add_executable(1941_CheckifAllCharEqual 1941_CheckifAllCharEqual.cpp)
+target_link_libraries(1941_CheckifAllCharEqual ${GTEST_LIBRARIES} pthread)
