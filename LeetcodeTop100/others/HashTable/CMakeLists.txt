@@ -18,3 +18,6 @@ target_link_libraries(706_DesignHashMap ${GTEST_LIBRARIES} pthread)
 
 add_executable(1941_CheckifAllCharEqual 1941_CheckifAllCharEqual.cpp)
 target_link_libraries(1941_CheckifAllCharEqual ${GTEST_LIBRARIES} pthread)
+
+add_executable(41_FirstMissingPositive 41_FirstMissingPositive.cpp)
+target_link_libraries(41_FirstMissingPositive ${GTEST_LIBRARIES} pthread)
