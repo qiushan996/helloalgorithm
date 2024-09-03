@@ -148,3 +148,9 @@
 - 51、N Queens  N皇后
 - 78、Subsets 子集
 - 784、Letter Case Permutation 字母大小写全排列
+
+
+**哈希表**
+
+- 705、Design Hashset 设计一个哈希集合
+- 706、Design Hashmap 设计哈希映射

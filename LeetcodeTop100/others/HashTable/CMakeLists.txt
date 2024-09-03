@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(705_DesignHashSet 705_DesignHashSet.cpp)
 target_link_libraries(705_DesignHashSet ${GTEST_LIBRARIES} pthread)
+
+add_executable(706_DesignHashMap 706_DesignHashMap.cpp)
+target_link_libraries(706_DesignHashMap ${GTEST_LIBRARIES} pthread)
