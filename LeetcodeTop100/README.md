@@ -154,3 +154,5 @@
 
 - 705、Design Hashset 设计一个哈希集合
 - 706、Design Hashmap 设计哈希映射
+- 1941、Check if All Characters Have Equal Number of Occurrences 检查是否所有字符出现次数相同
+- 41、First Missing positive 缺失的第一个正数
