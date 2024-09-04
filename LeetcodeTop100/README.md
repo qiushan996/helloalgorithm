@@ -156,3 +156,9 @@
 - 706、Design Hashmap 设计哈希映射
 - 1941、Check if All Characters Have Equal Number of Occurrences 检查是否所有字符出现次数相同
 - 41、First Missing positive 缺失的第一个正数
+
+
+**队列**
+
+- 225、Implement stack using Queue 使用队列实现栈
+- 622、Design Circular Queue 设计循环队列
