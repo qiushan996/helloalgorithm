@@ -123,6 +123,8 @@
 - 713、Subarray Product Less Than K 乘积小于K的子数组
 - 209、Mininum Size Subarray Sum 长度最小的子数组
 - 1343、Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold  大小为K且平均值大于等于阈值的子数组数
+- 452、Minimum Number of Arrows to Burst Balloons 用最少量的箭引爆气球
+- 57、Insert interval 插入区间
 
 **字符串题目补充：**
 
@@ -171,3 +173,4 @@
 - 150、Evaluate reverse polish notation 逆波兰表达式求值
 - 227、Basic Calculator II 基本计算器
 - 1047、Remove All Adjacent Duplicates In String  删除字符串中所有相邻重复项
+- 224、Basic Calculator 基本计算器
