@@ -163,3 +163,11 @@
 
 - 225、Implement stack using Queue 使用队列实现栈
 - 622、Design Circular Queue 设计循环队列
+
+
+
+**堆栈**
+
+- 150、Evaluate reverse polish notation 逆波兰表达式求值
+- 227、Basic Calculator II 基本计算器
+- 1047、Remove All Adjacent Duplicates In String  删除字符串中所有相邻重复项

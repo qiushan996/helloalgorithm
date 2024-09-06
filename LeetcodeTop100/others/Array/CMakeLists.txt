@@ -99,3 +99,6 @@ target_link_libraries(713_SubarrayLessK ${GTEST_LIBRARIES} pthread)
 
 add_executable(643_MaximumAverage 643_MaximumAverage.cpp)
 target_link_libraries(643_MaximumAverage ${GTEST_LIBRARIES} pthread)
+
+add_executable(57_insertinterval 57_insertinterval.cpp)
+target_link_libraries(57_insertinterval ${GTEST_LIBRARIES} pthread)
