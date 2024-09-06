@@ -18,3 +18,6 @@ target_link_libraries(1047_removealladjacent ${GTEST_LIBRARIES} pthread)
 
 add_executable(150_EvaluatereversePolishnotation 150_EvaluatereversePolishnotation.cpp)
 target_link_libraries(150_EvaluatereversePolishnotation ${GTEST_LIBRARIES} pthread)
+
+add_executable(224_basicCalculatorHard 224_basicCalculatorHard.cpp)
+target_link_libraries(224_basicCalculatorHard ${GTEST_LIBRARIES} pthread)
