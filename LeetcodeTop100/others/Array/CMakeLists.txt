@@ -108,3 +108,6 @@ target_link_libraries(452_mimnumofArrows ${GTEST_LIBRARIES} pthread)
 
 add_executable(350_intersection_TwoArray 350_intersection_TwoArray.cpp)
 target_link_libraries(350_intersection_TwoArray ${GTEST_LIBRARIES} pthread)
+
+add_executable(448_FindAllNumDispear 448_FindAllNumDispear.cpp)
+target_link_libraries(448_FindAllNumDispear ${GTEST_LIBRARIES} pthread)

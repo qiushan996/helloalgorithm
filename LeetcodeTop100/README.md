@@ -125,6 +125,7 @@
 - 1343、Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold  大小为K且平均值大于等于阈值的子数组数
 - 452、Minimum Number of Arrows to Burst Balloons 用最少量的箭引爆气球
 - 57、Insert interval 插入区间
+- 350、Intersection of two Arrays II 两个数组的交集II
 
 **字符串题目补充：**
 
