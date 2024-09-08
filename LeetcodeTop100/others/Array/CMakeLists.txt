@@ -105,3 +105,6 @@ target_link_libraries(57_insertinterval ${GTEST_LIBRARIES} pthread)
 
 add_executable(452_mimnumofArrows 452_mimnumofArrows.cpp)
 target_link_libraries(452_mimnumofArrows ${GTEST_LIBRARIES} pthread)
+
+add_executable(350_intersection_TwoArray 350_intersection_TwoArray.cpp)
+target_link_libraries(350_intersection_TwoArray ${GTEST_LIBRARIES} pthread)
