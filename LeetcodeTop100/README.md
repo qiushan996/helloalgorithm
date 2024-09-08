@@ -126,6 +126,8 @@
 - 452、Minimum Number of Arrows to Burst Balloons 用最少量的箭引爆气球
 - 57、Insert interval 插入区间
 - 350、Intersection of two Arrays II 两个数组的交集II
+- 448、Find all number dispared in array 查找数组中消失的数字
+- 819、most common word 最常见的单词
 
 **字符串题目补充：**
 
