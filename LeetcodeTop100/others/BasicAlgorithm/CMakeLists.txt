@@ -57,3 +57,6 @@ target_link_libraries(47_PermutationsII ${GTEST_LIBRARIES} pthread)
 
 add_executable(784_LetterCasePermulation 784_LetterCasePermulation.cpp)
 target_link_libraries(784_LetterCasePermulation ${GTEST_LIBRARIES} pthread)
+
+add_executable(40_combinationsumII 40_combinationsumII.cpp)
+target_link_libraries(40_combinationsumII ${GTEST_LIBRARIES} pthread)
