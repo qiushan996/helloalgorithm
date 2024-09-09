@@ -60,3 +60,6 @@ target_link_libraries(784_LetterCasePermulation ${GTEST_LIBRARIES} pthread)
 
 add_executable(40_combinationsumII 40_combinationsumII.cpp)
 target_link_libraries(40_combinationsumII ${GTEST_LIBRARIES} pthread)
+
+add_executable(77_combinations 77_combinations.cpp)
+target_link_libraries(77_combinations ${GTEST_LIBRARIES} pthread)
