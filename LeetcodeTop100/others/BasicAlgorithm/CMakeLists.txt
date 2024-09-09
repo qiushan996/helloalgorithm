@@ -63,3 +63,6 @@ target_link_libraries(40_combinationsumII ${GTEST_LIBRARIES} pthread)
 
 add_executable(77_combinations 77_combinations.cpp)
 target_link_libraries(77_combinations ${GTEST_LIBRARIES} pthread)
+
+add_executable(306_additive_number 306_additive_number.cpp)
+target_link_libraries(306_additive_number ${GTEST_LIBRARIES} pthread)
