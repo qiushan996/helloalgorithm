@@ -137,6 +137,9 @@
 - 415、Add String 字符串相加
 - 151、Reverse words 反转字符串中的单词
 - 557、Reverse words III  反转字符串中的单词
+- 38、count and say 外观数列
+- 71、simplify path 路径简化
+- 91、docode ways 解吗路径
 
 **基础算法题目：**
 
