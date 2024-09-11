@@ -27,3 +27,12 @@ target_link_libraries(151_ReverseWords ${GTEST_LIBRARIES} pthread)
 
 add_executable(557_ReverseWordsIII 557_ReverseWordsIII.cpp)
 target_link_libraries(557_ReverseWordsIII ${GTEST_LIBRARIES} pthread)
+
+add_executable(38_countandSay 38_countandSay.cpp)
+target_link_libraries(38_countandSay ${GTEST_LIBRARIES} pthread)
+
+add_executable(71_simplifypath 71_simplifypath.cpp)
+target_link_libraries(71_simplifypath ${GTEST_LIBRARIES} pthread)
+
+add_executable(91_decodeways 91_decodeways.cpp)
+target_link_libraries(91_decodeways ${GTEST_LIBRARIES} pthread)
