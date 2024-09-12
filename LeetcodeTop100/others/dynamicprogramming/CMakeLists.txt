@@ -12,3 +12,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(62_uniquePaths 62_uniquePaths.cpp)
 target_link_libraries(62_uniquePaths ${GTEST_LIBRARIES} pthread)
+
+add_executable(64_MimPathSum 64_MimPathSum.cpp)
+target_link_libraries(64_MimPathSum ${GTEST_LIBRARIES} pthread)
